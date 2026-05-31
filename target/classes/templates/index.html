@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>File Transfer</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>⚡ File Transfer</h1>
+        <p>Compartilhe arquivos rapidamente</p>
+    </header>
+
+    <div id="dropZone">
+
+        <svg width="60" height="60" viewBox="0 0 24 24">
+            <path fill="#4da3ff"
+            d="M12 2L6 8h4v6h4V8h4zM4 18h16v4H4z"/>
+        </svg>
+
+        <p>Arraste arquivos aqui</p>
+
+        <button id="selectFile">
+            Selecionar Arquivo
+        </button>
+
+        <input
+            type="file"
+            id="fileInput"
+            hidden>
+
+    </div>
+
+    <div class="progress-wrapper">
+
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+
+        <span id="progressText">0%</span>
+
+        <span id="speed">0 MB/s</span>
+
+    </div>
+
+    <div id="result" class="hidden">
+
+        <h3>Upload concluído</h3>
+
+        <input id="shareLink" readonly>
+
+        <div class="buttons">
+
+            <button id="copyBtn">
+                Copiar Link
+            </button>
+
+            <a id="openBtn"
+               target="_blank">
+               Abrir
+            </a>
+
+        </div>
+
+    </div>
+
+    <section>
+
+        <h2>Arquivos</h2>
+
+        <div id="fileList"></div>
+
+    </section>
+
+</div>
+
+<script src="/js/app.js"></script>
+
+</body>
+</html>

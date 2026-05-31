@@ -20,10 +20,10 @@ public class FileStorageService {
 
     private final Map<String, FileInfo> files = new ConcurrentHashMap<>();
 
-    @Value("${file.upload-dir}")
+    @Value("${file.upload-dir:uploads}")
     private String uploadDir;
 
-    @Value("${file.expiration-hours}")
+    @Value("${file.expiration-hours:72}")
     private long expirationHours;
 
     private final Tika tika = new Tika();

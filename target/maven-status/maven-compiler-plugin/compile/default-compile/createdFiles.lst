@@ -1,0 +1,9 @@
+com\example\filetransfer\services\FileStorageService.class
+com\example\filetransfer\FileTransferApplication.class
+com\example\filetransfer\controllers\ViewController.class
+com\example\filetransfer\config\WebConfig.class
+com\example\filetransfer\exceptions\GlobalExceptionHandler.class
+com\example\filetransfer\controllers\FileController.class
+com\example\filetransfer\exceptions\FileStorageException.class
+com\example\filetransfer\models\UploadResponse.class
+com\example\filetransfer\models\FileInfo.class

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Download</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+<div class="download-container">
+
+    <h1 th:text="${file.originalName}">
+        Arquivo
+    </h1>
+
+    <p>
+        Tamanho:
+        <span th:text="${file.size}">
+        </span>
+        bytes
+    </p>
+
+    <p>
+        Downloads:
+        <span th:text="${file.downloads}">
+        </span>
+    </p>
+
+    <p>
+        Enviado:
+        <span th:text="${file.uploadDate}">
+        </span>
+    </p>
+
+    <a
+      class="download-btn"
+      th:href="@{/api/files/download/{id}(id=${file.id})}">
+      Download
+    </a>
+
+</div>
+
+</body>
+</html>

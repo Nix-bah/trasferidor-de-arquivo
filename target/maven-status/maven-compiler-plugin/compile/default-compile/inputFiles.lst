@@ -1,0 +1,9 @@
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\config\WebConfig.java
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\controller\FileController.java
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\controller\ViewController.java
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\exception\FileStorageException.java
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\exception\GlobalExceptionHandler.java
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\FileTransferApplication.java
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\models\FileInfo.java
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\models\UploadResponse.java
+D:\C\trasferidor-de-arquivo\src\main\java\com\example\filetransfer\service\FileStorageService.java
