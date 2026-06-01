@@ -1,3 +1,3 @@
 # trasferidor-de-arquivo
 
-por enquanto isso só funcionapor rede local
+por enquanto isso só funciona por rede local
